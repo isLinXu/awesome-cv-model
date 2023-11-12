@@ -265,7 +265,94 @@ awesome cv model
 
 
 
-## 四、附录
+## 四、PaddleX List
+
+---
+
+### 1、图像分类
+
+
+| 模型类型 | 模型                                    | Top1 Acc(%) | GPU 推理耗时(ms) | CPU 推理耗时(ms) | 模型存储大小(M) | 详情                                                         |
+| :------- | :-------------------------------------- | :---------- | :--------------- | :--------------- | :-------------- | :----------------------------------------------------------- |
+| 图像分类 | CLIP_vit_base_patch16_224               | 85.39       | 4.68             | 67.35            | 331             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6797877) |
+|          | SwinTransformer_base_patch4_window7_224 | 83.37       | 6.55             | 838.15           | 342             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6798186) |
+|          | PP-HGNet_small                          | 81.51       | 2.43             | 24.01            | 94              | [info](https://aistudio.baidu.com/projectdetail/paddlex/6798078) |
+|          | ResNet50                                | 76.50       | 2.15             | 10.83            | 98              | [info](https://aistudio.baidu.com/projectdetail/paddlex/6797043) |
+|          | PP-LCNet_x1_0                           | 71.32       | 0.47             | 1.63             | 12              | [info](https://aistudio.baidu.com/projectdetail/paddlex/6797638) |
+|          | MobileNetV3_small_x1_0                  | 68.24       | 0.83             | 1.79             | 12              | [info](https://aistudio.baidu.com/projectdetail/paddlex/6798005) |
+
+### 2、图像分割
+
+| 模型类型 | 模型       | mIoU (%) | GPU 推理耗时(ms) | CPU 推理耗时(ms) | 模型存储大小(M) | 详情                                                         |
+| :------- | :--------- | :------- | :--------------- | :--------------- | :-------------- | :----------------------------------------------------------- |
+| 图像分割 | OCRNet     | 82.15    | 158.60           | 3011.93          | 270             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6806846) |
+|          | PP-LiteSeg | 77.04    | 7.55             | 208.67           | 31              | [info](https://aistudio.baidu.com/projectdetail/paddlex/6806492) |
+
+### 3、目标检测
+
+| 模型类型 | 模型                | mAP(%) | GPU 推理耗时(ms) | CPU 推理耗时(ms) | 模型存储大小(M) | 详情                                                         |
+| :------- | :------------------ | :----- | :--------------- | :--------------- | :-------------- | :----------------------------------------------------------- |
+| 目标检测 | rt_detr_hgnetv2_l   | 53.0   | 12.34            | 228.53           | 125             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6791833) |
+|          | ppyoloe_plus_l      | 52.9   | 11.57            | 256.29           | 200             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6798256) |
+|          | picodet_s_320_lcnet | 29.1   | 9.46             | 6.27             | 5               | [info](https://aistudio.baidu.com/projectdetail/paddlex/6798284) |
+
+### 4、OCR
+
+| 模型类型 | 模型            | 检测 mAP(%) | 识别 Top1 Acc(%) | GPU 推理耗时(ms) | CPU 推理耗时(ms) | 模型存储大小(M) | 详情                                                         |
+| :------- | :-------------- | :---------- | :--------------- | :--------------- | :--------------- | :-------------- | :----------------------------------------------------------- |
+| OCR      | PP-OCRv4-server | 82.69       | 79.20            | 32.59            | 423.91           | 198             | [文本检测](https://aistudio.baidu.com/projectdetail/paddlex/6792800)/[文本识别](https://aistudio.baidu.com/projectdetail/paddlex/6793806) |
+|          | PP-OCRv4-mobile | 77.79       | 78.20            | 3.12             | 35.47            | 15              | [文本检测](https://aistudio.baidu.com/projectdetail/paddlex/6792883)/[文本识别](https://aistudio.baidu.com/projectdetail/paddlex/6793861) |
+
+### 5、PP-ChatOCR
+
+| 模型类型   | 模型       | 关键信息抽取准确率                | 启动训练                                                     |
+| :--------- | :--------- | :-------------------------------- | :----------------------------------------------------------- |
+| PP-ChatOCR | PP-ChatOCR | 61%（百度自有数据集，复杂度较大） | [info](https://aistudio.baidu.com/projectdetail/paddlex/6796372) |
+
+### 6、PDF转Word
+
+| 模型类型  | 算法     | 模型              | 精度        | GPU 推理耗时(ms) | CPU 推理耗时(ms) | 模型存储大小(M) | 详情                                                         |
+| :-------- | :------- | :---------------- | :---------- | :--------------- | :--------------- | :-------------- | :----------------------------------------------------------- |
+| PDF转Word | 版面分析 | picodet_layout_1x | 86.80       | 4.99             | 76.41            | 9.7             | [版面分析](https://aistudio.baidu.com/projectdetail/paddlex/6793486) |
+|           | 文本检测 | ch_PP-OCRv4_det   | 77.79/82.69 | 3.63/77.74       | -/2244.96        | 4.7/111         | [mobile](https://aistudio.baidu.com/projectdetail/paddlex/6792883)/[server](https://aistudio.baidu.com/projectdetail/paddlex/6792800) |
+|           | 文本识别 | ch_PP-OCRv4_rec   | 78.20/79.20 | 1.46/6.55        | -/134.59         | 11/89           | [mobile](https://aistudio.baidu.com/projectdetail/paddlex/6793861)/[server](https://aistudio.baidu.com/projectdetail/paddlex/6793806) |
+|           | 表格识别 | SLANet            | 76.31       | 868.23           | 395.39           | 9.3             | [SLANet](https://aistudio.baidu.com/projectdetail/paddlex/6796154) |
+
+### 7、时序预测
+
+
+| 模型类型 | 模型          | mse   | mae   | 模型存储大小(M) | 详情                                                         |
+| :------- | :------------ | :---- | :---- | :-------------- | :----------------------------------------------------------- |
+| 时序预测 | DLinear       | 0.386 | 0.445 | 80k             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6792900) |
+|          | RLinear       | 0.408 | 0.456 | 44k             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6793480) |
+|          | Nlinear       | 0.411 | 0.459 | 44k             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6793506) |
+|          | PatchTST      | 0.291 | 0.380 | 2.2M            | [info](https://aistudio.baidu.com/projectdetail/paddlex/6792846) |
+|          | TimesNet      | 0.284 | 0.386 | 5.2M            | [info](https://aistudio.baidu.com/projectdetail/paddlex/6793437) |
+|          | TiDE          | 0.376 | 0.441 | 35M             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6793534) |
+|          | Nonstationary | 0.385 | 0.463 | 61M             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6793558) |
+|          | XGBoost       | 0.426 | 0.470 | 15M             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6792901) |
+|          | PP-TS         | 0.210 | 0.318 | 63M             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6792747) |
+
+### 8、图像识别系统
+
+| 模型类型     | 模型       | 主体检测模型 mAP(%) | Aliproduct数据集recall@1(%) | Aliproduct数据集mAP(%) | SOP数据集recall@1(%) | SOP数据集mAP(%) | 详情                                                         |
+| :----------- | :--------- | :------------------ | :-------------------------- | :--------------------- | :------------------- | :-------------- | :----------------------------------------------------------- |
+| 图像识别系统 | PP-ShiTuV2 | 41.5                | 84.2                        | 83.3                   | 77.6                 | 55.3            | [主体检测](https://aistudio.baidu.com/projectdetail/paddlex/6807004)/[特征提取](https://aistudio.baidu.com/projectdetail/paddlex/6807332) |
+
+### 9、3D目标检测
+
+| 模型类型   | 模型        | 精度               | NDS (%) | GPU 推理耗时(ms) | CPU 推理耗时(ms) | 模型存储大小(M) | 详情                                                         |
+| :--------- | :---------- | :----------------- | :------ | :--------------- | :--------------- | :-------------- | :----------------------------------------------------------- |
+| 3D目标检测 | CaDDN       | 7.86%（3DmAP Mod） | -       | 182.4            | -                | 121             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6807096) |
+|            | CenterPoint | 50.79% (3D mAP)    | 61.30   | 34.0             | -                | 24.5            | [info](https://aistudio.baidu.com/projectdetail/paddlex/6807282) |
+|            | PETRv1      | 38.35 (3D mAP)     | 43.52   | 262.5            | 22341.2          | 345             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6807328) |
+|            | PETRv2      | 41.05 (3D mAP)     | 49.86   | 515.3            | 42693.8          | 121             | [info](https://aistudio.baidu.com/projectdetail/paddlex/6807340) |
+
+
+
+
+
+## 五、附录
 
 ---
 
@@ -276,7 +363,8 @@ $$
 a=\frac A{(Year_{now}-Year_{arxiv})*12+Month_{now}-Month_{arxiv}}
 $$
 
-	$b,c,d$计算方式亦然。
+$b,c,d$计算方式亦然。
+
 注：$Year_{now}$与$Month_{now}$分别表示当前年、月份，$Year_{arxiv}$与$Month_{arxiv}$分别表示改算法对应的论文在$Arxiv$上发表的年、月份。
 
 3.计算各维度的细项评分，即$S_{a}$，$S_{b}$，$S_{c}$，$S_{d}$，以$S_{a}$为例，如下公式中$a_{max}$，$a_{avg}$，$a_{min}$，分别表示该方向（如目标检测）下所有算法中$a$的最大值，算数平均值与最小值。
@@ -294,7 +382,7 @@ $S=Roundup(\frac{S_a+S_b+S_c+S_d}4)$，其中$Roundup$为向上舍入取整函�
 
 
 
-## 五、参考：
+## 六、参考：
 
 ---
 
