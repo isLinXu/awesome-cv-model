@@ -22,6 +22,8 @@ awesome cv model
 | - 训练芯片适配和评测 |
 | - 集群环境评测       |
 
+![image](https://github.com/isLinXu/issues/assets/59380685/ebeb9542-268e-4e75-afb2-75a278c5dee5)
+
 ## 一、分级推荐列表
 
 ### 1、图像分类
@@ -263,8 +265,6 @@ awesome cv model
 | 文本检测 | DBNet    | R18                     | 56.6          | 6.45         | 69.3 | 12.341M | 24.897G | R50                          | 43.4          | /            | 71.2 | 26.281M | 35.232G | R101                     | 34.2          | /            | 72.8 | 46.331M | 51.268G |
 |          |          |                         |               |              |      |         |         |                              |               |              |      |         |         |                          |               |              |      |         |         |
 
-
-
 ## 四、PaddleX List
 
 ---
@@ -357,8 +357,7 @@ awesome cv model
 ---
 
 1.影响力评价目前共有四个维度，即Google Scholar 引用数、Google Search 结果数、GitHub repository 数、GitHub code 数，分别定义为变量A、B、C、D .
-2.计算各维度对应 Arxiv 发表至今的月均结果，即 ：$a,b,c,d$。
-
+2.计算各维度对应 Arxiv 发表至今的月均结果，即 ：$a$,$b$,$c$,$d$。
 $$
 a=\frac A{(Year_{now}-Year_{arxiv})*12+Month_{now}-Month_{arxiv}}
 $$
