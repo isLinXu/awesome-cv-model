@@ -357,29 +357,6 @@ awesome cv model
 ---
 
 1.影响力评价目前共有四个维度，即Google Scholar 引用数、Google Search 结果数、GitHub repository 数、GitHub code 数，分别定义为变量A、B、C、D .
-2.计算各维度对应 Arxiv 发表至今的月均结果，即 ：$a$,$b$,$c$,$d$。
-$$
-a=\frac A{(Year_{now}-Year_{arxiv})*12+Month_{now}-Month_{arxiv}}
-$$
-
-$b,c,d$计算方式亦然。
-
-注：$Year_{now}$与$Month_{now}$分别表示当前年、月份，$Year_{arxiv}$与$Month_{arxiv}$分别表示改算法对应的论文在$Arxiv$上发表的年、月份。
-
-3.计算各维度的细项评分，即$S_{a}$，$S_{b}$，$S_{c}$，$S_{d}$，以$S_{a}$为例，如下公式中$a_{max}$，$a_{avg}$，$a_{min}$，分别表示该方向（如目标检测）下所有算法中$a$的最大值，算数平均值与最小值。
-$$
-\left.S_a=\left\{\begin{array}{ll}4,\quad&a>\frac{amax+a_avg}2\\3,\quad&\frac{amax+a_avg}2>a>a_{avg}\\2,\quad&a_{avg}>a>\frac{a_{min}+a_{avg}}2\\1,\quad&\frac{a_{min}+a_{avg}}2>a\end{array}\right.\right.
-$$
-
-4.计算该模型的影响力总体得分，即$S$：
-
-$S=Roundup(\frac{S_a+S_b+S_c+S_d}4)$，其中$Roundup$为向上舍入取整函数。
-
-
-
-
-
-1.影响力评价目前共有四个维度，即Google Scholar 引用数、Google Search 结果数、GitHub repository 数、GitHub code 数，分别定义为变量A、B、C、D .
 
 2.计算各维度对应 Arxiv 发表至今的月均结果，即：a, b, c, d。
 
@@ -389,7 +366,7 @@ b, c, d计算方式亦然。
 
 注：Year_now与Month_now分别表示当前年、月份，Year_arxiv与Month_arxiv分别表示改算法对应的论文在Arxiv上发表的年、月份。
 
-3.计算各维度的细项评分，即S_a，S_b，S_c，S_d，以S_a为例，如下公式中a_max，a_avg，a_min，分别表示该方向（如目标检测）下所有算法中a的最大值，算数平均值与最小值。
+3.计算各维度的细项评分，即$S_a$，$S_b$，$S_c$，$S_d$，以$S_a$为例，如下公式中$a_{max}$，$a_{avg}$，$a_{min}$，分别表示该方向（如目标检测）下所有算法中a的最大值，算数平均值与最小值。
 
 ![equation](https://latex.codecogs.com/svg.latex?S_a%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bll%7D4%2C%26a%3E%5Cfrac%7Ba_%7Bmax%7D&plus;a_%7Bavg%7D%7D%7B2%7D%5C%5C3%2C%26%5Cfrac%7Ba_%7Bmax%7D&plus;a_%7Bavg%7D%7D%7B2%7D%3Ea%3Ea_%7Bavg%7D%5C%5C2%2C%26a_%7Bavg%7D%3Ea%3E%5Cfrac%7Ba_%7Bmin%7D&plus;a_%7Bavg%7D%7D%7B2%7D%5C%5C1%2C%26%5Cfrac%7Ba_%7Bmin%7D&plus;a_%7Bavg%7D%7D%7B2%7D%3Ea%5Cend%7Barray%7D%5Cright.)
 
