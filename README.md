@@ -375,6 +375,28 @@ $$
 
 $S=Roundup(\frac{S_a+S_b+S_c+S_d}4)$，其中$Roundup$为向上舍入取整函数。
 
+
+
+
+
+1.影响力评价目前共有四个维度，即Google Scholar 引用数、Google Search 结果数、GitHub repository 数、GitHub code 数，分别定义为变量A、B、C、D .
+
+2.计算各维度对应 Arxiv 发表至今的月均结果，即：a, b, c, d。
+
+![equation](https://latex.codecogs.com/svg.latex?a%3D%5Cfrac%20A%7B%28Year_%7Bnow%7D-Year_%7Barxiv%7D%29*12&plus;Month_%7Bnow%7D-Month_%7Barxiv%7D%7D)
+
+b, c, d计算方式亦然。
+
+注：Year_now与Month_now分别表示当前年、月份，Year_arxiv与Month_arxiv分别表示改算法对应的论文在Arxiv上发表的年、月份。
+
+3.计算各维度的细项评分，即S_a，S_b，S_c，S_d，以S_a为例，如下公式中a_max，a_avg，a_min，分别表示该方向（如目标检测）下所有算法中a的最大值，算数平均值与最小值。
+
+![equation](https://latex.codecogs.com/svg.latex?S_a%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bll%7D4%2C%26a%3E%5Cfrac%7Ba_%7Bmax%7D&plus;a_%7Bavg%7D%7D%7B2%7D%5C%5C3%2C%26%5Cfrac%7Ba_%7Bmax%7D&plus;a_%7Bavg%7D%7D%7B2%7D%3Ea%3Ea_%7Bavg%7D%5C%5C2%2C%26a_%7Bavg%7D%3Ea%3E%5Cfrac%7Ba_%7Bmin%7D&plus;a_%7Bavg%7D%7D%7B2%7D%5C%5C1%2C%26%5Cfrac%7Ba_%7Bmin%7D&plus;a_%7Bavg%7D%7D%7B2%7D%3Ea%5Cend%7Barray%7D%5Cright.)
+
+4.计算该模型的影响力总体得分，即S：
+
+![equation](https://latex.codecogs.com/svg.latex?S%3DRoundup%28%5Cfrac%7BS_a&plus;S_b&plus;S_c&plus;S_d%7D%7B4%7D%29)，其中Roundup为向上舍入取整函数。
+
 综合考虑模型在标准 Benchmark 上精度和速度的 trade-off，比较精度-速度曲线。
 
 计算量与参数量计算方式，详见：[MMEngine-统计模型计算量和参数量.](https://mmengine.readthedocs.io/zh_CN/latest/common_usage/model_analysis.html)
