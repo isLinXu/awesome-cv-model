@@ -30,72 +30,72 @@ awesome cv model
 
 | 方向         | 算法             | 论文名                                                       | 推荐优先级 |
 | :----------- | :--------------- | :----------------------------------------------------------- | :--------- |
-| **图像分类** | ResNet           | Deep Residual Learning for Image Recognition                 | P0         |
-|              | MobileNet V2     | MobileNetV2: Inverted Residuals and Linear Bottlenecks       | P0         |
-|              | ViT              | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | P0         |
-|              | Swin Transformer | Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | P0         |
-|              | EfficientNet     | Rethinking Model Scaling for Convolutional Neural Networks   | P1         |
-|              | DenseNet         | Densely Connected Convolutional Networks                     | P1         |
-|              | SENets           | Squeeze-and-Excitation Networks                              | P1         |
-|              | RepVGG           | Repvgg: Making vgg-style convnets great again                | P1         |
-|              | InceptionV3      | Rethinking the Inception Architecture for Computer Vision    | P2         |
-|              | VGGNet           | Very Deep Convolutional Networks for Large-Scale Image Recognition | P2         |
-|              | ShuffleNetV2     | Shufflenet v2: Practical guidelines for efficient cnn architecture design | P2         |
+| **图像分类** | ResNet           | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) | P0         |
+|              | MobileNet V2     | [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381) | P0         |
+|              | ViT              | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) | P0         |
+|              | Swin Transformer | [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) | P0         |
+|              | EfficientNet     | [Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946) | P1         |
+|              | DenseNet         | [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993) | P1         |
+|              | SENets           | [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507) | P1         |
+|              | RepVGG           | [Repvgg: Making vgg-style convnets great again](https://arxiv.org/abs/2101.03697) | P1         |
+|              | InceptionV3      | [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) | P2         |
+|              | VGGNet           | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | P2         |
+|              | ShuffleNetV2     | [Shufflenet v2: Practical guidelines for efficient cnn architecture design](https://arxiv.org/abs/1807.11164) | P2         |
 
 ### 2、目标检测
 
 |   **任务**   |   **算法**    | **论文名**                                                   | 推荐优先级 |
 | :----------: | :-----------: | :----------------------------------------------------------- | :--------- |
-| **目标检测** |      SSD      | SSD: Single Shot MultiBox Detector                           | P0         |
-|              |    YOLOV3     | YOLOv3: An Incremental Improvement                           | P0         |
-|              |   CenterNet   | Objects as Points                                            | P0         |
-|              | Faster R-CNN  | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | P0         |
-|              |   RetinaNet   | Focal Loss for Dense Object Detection                        | P0         |
-|              |     FCOS      | FCOS: Fully Convolutional One-Stage Object Detection         | P1         |
-|              |     ATSS      | Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection | P1         |
-|              | Cascade R-CNN | Cascade R-CNN: High Quality Object Detection and Instance Segmentation | P2         |
-|              |     DETR      | End-to-End Object Detection with Transformers                | P2         |
+| **目标检测** |      SSD      | [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325) | P0         |
+|              |    YOLOV3     | [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767) | P0         |
+|              |   CenterNet   | [Objects as Points](https://arxiv.org/abs/1904.07850)        | P0         |
+|              | Faster R-CNN  | [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497) | P0         |
+|              |   RetinaNet   | [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002) | P0         |
+|              |     FCOS      | [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/abs/1904.01355) | P1         |
+|              |     ATSS      | [Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/abs/1912.02424) | P1         |
+|              | Cascade R-CNN | [Cascade R-CNN: High Quality Object Detection and Instance Segmentation](https://arxiv.org/abs/1906.09756) | P2         |
+|              |     DETR      | [End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872) | P2         |
 
 ### 3、实例分割
 
-|     任务     |    算法    | 论文名                                | 推荐优先级 |
-| :----------: | :--------: | :------------------------------------ | :--------- |
-| **实例分割** | Mask R-CNN | Mask R-CNN                            | P0         |
-|              |    SOLO    | SOLO: Segmenting Objects by Locations | P1         |
+|     任务     |    算法    | 论文名                                                       | 推荐优先级 |
+| :----------: | :--------: | :----------------------------------------------------------- | :--------- |
+| **实例分割** | Mask R-CNN | [Mask R-CNN](https://arxiv.org/abs/1703.06870)               | P0         |
+|              |    SOLO    | [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) | P1         |
 
 ### 4、语义分割
 
 |   **任务**   |   **算法**    | **论文名**                                                   | **推荐优先级** |
 | :----------: | :-----------: | :----------------------------------------------------------- | :------------- |
-| **语义分割** |      FCN      | Fully Convolutional Networks for Semantic Segmentation       | P0             |
-|              | DeepLabv3Plus | Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation | P0             |
-|              |     UNet      | U-Net: Convolutional Networks for Biomedical Image Segmentation | P0             |
-|              |    PSPNet     | Pyramid Scene Parsing Network                                | P1             |
-|              |   DeepLabv3   | Rethinking Atrous Convolution for Semantic Image Segmentation | P1             |
-|              |    UperNet    | Unified Perceptual Parsing for Scene Understanding           | P2             |
+| **语义分割** |      FCN      | [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038) | P0             |
+|              | DeepLabv3Plus | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1802.02611) | P0             |
+|              |     UNet      | [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) | P0             |
+|              |    PSPNet     | [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105) | P1             |
+|              |   DeepLabv3   | [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1706.05587) | P1             |
+|              |    UperNet    | [Unified Perceptual Parsing for Scene Understanding](https://arxiv.org/abs/1807.10221) | P2             |
 
 ### 5、动作识别
 
 |     任务     |   算法   | 论文名                                                       | 推荐优先级 |
 | :----------: | :------: | :----------------------------------------------------------- | :--------- |
-| **动作识别** | SlowFast | Slowfast networks for video recognition                      | P0         |
-|              |   TSN    | Temporal Segment Networks: Towards Good Practices for Deep Action Recognition | P1         |
-|              |  ST-GCN  | Spatial temporal graph convolutional networks for skeleton-based action recognition | P1         |
+| **动作识别** | SlowFast | [Slowfast networks for video recognition](https://arxiv.org/abs/1812.03982) | P0         |
+|              |   TSN    | [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/abs/1608.00859) | P1         |
+|              |  ST-GCN  | [Spatial temporal graph convolutional networks for skeleton-based action recognition](https://arxiv.org/abs/1801.07455) | P1         |
 
 ### 6、2D姿态估计
 
 |      任务       |   算法   | 论文名                                                       | 推荐优先级 |
 | :-------------: | :------: | :----------------------------------------------------------- | :--------- |
-| **2D 姿态估计** |  HRNet   | Deep high-resolution representation learning for human pose estimation | P0         |
-|                 | DeepPose | Deeppose: Human pose estimation via deep neural networks     | P2         |
+| **2D 姿态估计** |  HRNet   | [Deep high-resolution representation learning for human pose estimation](https://arxiv.org/abs/1902.09212) | P0         |
+|                 | DeepPose | [Deeppose: Human pose estimation via deep neural networks](https://arxiv.org/abs/1312.4659) | P2         |
 
 ### 7、OCR识别
 
 |  任务   | 算法  | 论文名                                                       | 推荐优先级 |
 | :-----: | :---: | :----------------------------------------------------------- | :--------- |
-| **OCR** | DBNet | Real-time Scene Text Detection with Differentiable Binarization | P0         |
-|         | CRNN  | An end-to-end trainable neural network for image-based sequence recognition and its application to scene text recognition | P0         |
-|         |  SAR  | Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition | P2         |
+| **OCR** | DBNet | [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) | P0         |
+|         | CRNN  | [An end-to-end trainable neural network for image-based sequence recognition and its application to scene text recognition](https://arxiv.org/abs/1507.05717) | P0         |
+|         |  SAR  | [Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition](https://arxiv.org/abs/1811.00751) | P2         |
 
 ## 二、影响力数据
 
@@ -105,72 +105,72 @@ awesome cv model
 
 | 方向         | 算法                     | 论文名                                                       | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
 | :----------- | :----------------------- | :----------------------------------------------------------- | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
-| **图像分类** | ResNet (2015）           | Deep Residual Learning for Image Recognition                 | 5          | 123,773               | 2,480,000            | 6,631                           | 823,551                   |
-|              | MobileNet V2 (2018）     | MobileNetV2: Inverted Residuals and Linear Bottlenecks       | 3          | 10,007                | 48,100               | 865                             | 98,276                    |
-|              | ViT (2020）              | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 4          | 4,985                 | 85,000               | 1,891                           | 183,629                   |
-|              | EfficientNet (2019）     | Rethinking Model Scaling for Convolutional Neural Networks   | 4          | 7,195                 | 132,000              | 861                             | 72,186                    |
-|              | InceptionV3 (2015）      | Rethinking the Inception Architecture for Computer Vision    | 3          | 20,421                | 156,000              | 526                             | 169,504                   |
-|              | DenseNet (2016）         | Densely Connected Convolutional Networks                     | 3          | 25,988                | 268,000              | 1,174                           | 64,907                    |
-|              | SENets (2017）           | Squeeze-and-Excitation Networks                              | 2          | 13,565                | 51,100               | 167                             | 14,368                    |
-|              | Swin Transformer (2021） | Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | 3          | 1,805                 | 33,900               | 189                             | 24,178                    |
-|              | VGGNet (2014）           | Very Deep Convolutional Networks for Large-Scale Image Recognition | 4          | 81,277                | 847,000              | 4,386                           | 400,117                   |
-|              | ShuffleNetV2 (2018）     | Shufflenet v2: Practical guidelines for efficient cnn architecture design | 2          | 2,371                 | 14,800               | 24                              | 5,891                     |
-|              | RepVGG (2021）           | Repvgg: Making vgg-style convnets great again                | 2          | 192                   | 5,500                | 37                              | 2,604                     |
+| **图像分类** | ResNet (2015）           | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) | 5          | 123,773               | 2,480,000            | 6,631                           | 823,551                   |
+|              | MobileNet V2 (2018）     | [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381) | 3          | 10,007                | 48,100               | 865                             | 98,276                    |
+|              | ViT (2020）              | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) | 4          | 4,985                 | 85,000               | 1,891                           | 183,629                   |
+|              | EfficientNet (2019）     | [Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946) | 4          | 7,195                 | 132,000              | 861                             | 72,186                    |
+|              | InceptionV3 (2015）      | [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) | 3          | 20,421                | 156,000              | 526                             | 169,504                   |
+|              | DenseNet (2016）         | [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993) | 3          | 25,988                | 268,000              | 1,174                           | 64,907                    |
+|              | SENets (2017）           | [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507) | 2          | 13,565                | 51,100               | 167                             | 14,368                    |
+|              | Swin Transformer (2021） | [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) | 3          | 1,805                 | 33,900               | 189                             | 24,178                    |
+|              | VGGNet (2014）           | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | 4          | 81,277                | 847,000              | 4,386                           | 400,117                   |
+|              | ShuffleNetV2 (2018）     | [Shufflenet v2: Practical guidelines for efficient cnn architecture design](https://arxiv.org/abs/1807.11164) | 2          | 2,371                 | 14,800               | 24                              | 5,891                     |
+|              | RepVGG (2021）           | [Repvgg: Making vgg-style convnets great again](https://arxiv.org/abs/2101.03697) | 2          | 192                   | 5,500                | 37                              | 2,604                     |
 
 ### 2、目标检测
 
 | 方向         | 算法                  | 论文名                                                       | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
 | :----------- | :-------------------- | :----------------------------------------------------------- | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
-| **目标检测** | SSD (2015）           | SSD: Single Shot MultiBox Detector                           | 4          | 22,196                | 85,900               | 3961                            | 484552                    |
-|              | YOLOV3 (2018）        | YOLOv3: An Incremental Improvement                           | 5          | 13,740                | 248,000              | 4909                            | 112,082                   |
-|              | Cascade R-CNN (2017） | Cascade R-CNN: High Quality Object Detection and Instance Segmentation | 2          | 438                   | 27,500               | 41                              | 55                        |
-|              | CenterNet (2019）     | Objects as Points                                            | 2          | 1,638                 | 20,100               | 339                             | 26,024                    |
-|              | DETR (2020）          | End-to-End Object Detection with Transformers                | 4          | 2,579                 | 48,000               | 592                             | 38,909                    |
-|              | Faster R-CNN (2015）  | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | 4          | 44,477                | 389,000              | 2,175                           | 7,822                     |
-|              | FCOS (2019）          | FCOS: Fully Convolutional One-Stage Object Detection         | 3          | 2,139                 | 45,600               | 167                             | 49,960                    |
-|              | RetinaNet (2017）     | Focal Loss for Dense Object Detection                        | 4          | 14,103                | 117,000              | 766                             | 136,616                   |
-|              | ATSS (2019）          | Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection | 2          | 518                   | 8,760                | 22                              | 20,023                    |
+| **目标检测** | SSD (2015）           | [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325) | 4          | 22,196                | 85,900               | 3961                            | 484552                    |
+|              | YOLOV3 (2018）        | [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767) | 5          | 13,740                | 248,000              | 4909                            | 112,082                   |
+|              | Cascade R-CNN (2017） | [Cascade R-CNN: High Quality Object Detection and Instance Segmentation](https://arxiv.org/abs/1906.09756) | 2          | 438                   | 27,500               | 41                              | 55                        |
+|              | CenterNet (2019）     | [Objects as Points](https://arxiv.org/abs/1904.07850)        | 2          | 1,638                 | 20,100               | 339                             | 26,024                    |
+|              | DETR (2020）          | [End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872) | 4          | 2,579                 | 48,000               | 592                             | 38,909                    |
+|              | Faster R-CNN (2015）  | [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497) | 4          | 44,477                | 389,000              | 2,175                           | 7,822                     |
+|              | FCOS (2019）          | [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/abs/1904.01355) | 3          | 2,139                 | 45,600               | 167                             | 49,960                    |
+|              | RetinaNet (2017）     | [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002) | 4          | 14,103                | 117,000              | 766                             | 136,616                   |
+|              | ATSS (2019）          | [Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/abs/1912.02424) | 2          | 518                   | 8,760                | 22                              | 20,023                    |
 
 ### 3、实例分割
 
-| 方向         | 算法               | 论文名                                | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
-| :----------- | :----------------- | :------------------------------------ | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
-| **实例分割** | Mask R-CNN (2017） | Mask R-CNN                            | 4          | 19,529                | 101,000              | 2,229                           | 9,627                     |
-|              | SOLO (2019）       | SOLO: Segmenting Objects by Locations | 2          | 285                   | 10,200               | 9                               | 254,495                   |
+| 方向         | 算法               | 论文名                                                       | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
+| :----------- | :----------------- | :----------------------------------------------------------- | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
+| **实例分割** | Mask R-CNN (2017） | [Mask R-CNN](https://arxiv.org/abs/1703.06870)               | 4          | 19,529                | 101,000              | 2,229                           | 9,627                     |
+|              | SOLO (2019）       | [SOLO: Segmenting Objects by Locations](https://arxiv.org/abs/1912.04488) | 2          | 285                   | 10,200               | 9                               | 254,495                   |
 
 ### 4、语义分割
 
 | 方向         | 算法                  | 论文名                                                       | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
 | :----------- | :-------------------- | :----------------------------------------------------------- | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
-| **语义分割** | PSPNet (2016）        | Pyramid Scene Parsing Network                                | 3          | 7519                  | 53,900               | 218                             | 21,377                    |
-|              | DeepLabv3 (2017）     | Rethinking Atrous Convolution for Semantic Image Segmentation | 3          | 5055                  | 52,900               | 487                             | 32901                     |
-|              | FCN (2014）           | Fully Convolutional Networks for Semantic Segmentation       | 5          | 31794                 | 158,000              | 1,846                           | 271,636                   |
-|              | DeepLabv3Plus (2018） | Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation | 4          | 6815                  | 55,400               | 134                             | 16,118                    |
-|              | UNet (2015）          | U-Net: Convolutional Networks for Biomedical Image Segmentation | 4          | 44256                 | 132,000              | 9,445                           | 31,920                    |
-|              | UperNet (2018）       | Unified Perceptual Parsing for Scene Understanding           | 2          | 475                   | 3,200                | 5                               | 9,208                     |
+| **语义分割** | PSPNet (2016）        | [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105) | 3          | 7519                  | 53,900               | 218                             | 21,377                    |
+|              | DeepLabv3 (2017）     | [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1706.05587) | 3          | 5055                  | 52,900               | 487                             | 32901                     |
+|              | FCN (2014）           | [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038) | 5          | 31794                 | 158,000              | 1,846                           | 271,636                   |
+|              | DeepLabv3Plus (2018） | [Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1802.02611) | 4          | 6815                  | 55,400               | 134                             | 16,118                    |
+|              | UNet (2015）          | [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) | 4          | 44256                 | 132,000              | 9,445                           | 31,920                    |
+|              | UperNet (2018）       | [Unified Perceptual Parsing for Scene Understanding](https://arxiv.org/abs/1807.10221) | 2          | 475                   | 3,200                | 5                               | 9,208                     |
 
 ### 5、动作识别
 
 | 方向         | 算法             | 论文名                                                       | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
 | :----------- | :--------------- | :----------------------------------------------------------- | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
-| **动作识别** | TSN (2016）      | Temporal Segment Networks: Towards Good Practices for Deep Action Recognition | 4          | 2,929                 | 18,800               | 179                             | 131,000                   |
-|              | SlowFast (2018） | Slowfast networks for video recognition                      | 3          | 1,335                 | 10,700               | 78                              | 9,917                     |
-|              | ST-GCN (2018）   | Spatial temporal graph convolutional networks for skeleton-based action recognition | 3          | 2,037                 | 9,680                | 69                              | 2,565                     |
+| **动作识别** | TSN (2016）      | [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/abs/1608.00859) | 4          | 2,929                 | 18,800               | 179                             | 131,000                   |
+|              | SlowFast (2018） | [Slowfast networks for video recognition](https://arxiv.org/abs/1812.03982) | 3          | 1,335                 | 10,700               | 78                              | 9,917                     |
+|              | ST-GCN (2018）   | [Spatial temporal graph convolutional networks for skeleton-based action recognition](https://arxiv.org/abs/1801.07455) | 3          | 2,037                 | 9,680                | 69                              | 2,565                     |
 
 ###  6、2D姿态估计
 
 | 方向            | 算法             | 论文名                                                       | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
 | :-------------- | :--------------- | :----------------------------------------------------------- | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
-| **2D 姿态估计** | HRNet (2019）    | Deep high-resolution representation learning for human pose estimation | 5          | 1,868                 | 25,100               | 218                             | 39,000                    |
-|                 | DeepPose (2019） | Deeppose: Human pose estimation via deep neural networks     | 2          | 2,625                 | 14,700               | 37                              | 945                       |
+| **2D 姿态估计** | HRNet (2019）    | [Deep high-resolution representation learning for human pose estimation](https://arxiv.org/abs/1902.09212) | 5          | 1,868                 | 25,100               | 218                             | 39,000                    |
+|                 | DeepPose (2019） | [Deeppose: Human pose estimation via deep neural networks](https://arxiv.org/abs/1312.4659) | 2          | 2,625                 | 14,700               | 37                              | 945                       |
 
 ### 7、OCR
 
 | 方向    | 算法          | 论文名                                                       | 影响力评分 | Google Scholar 引用数 | Google Search 结果数 | GitHub repository Search 结果数 | GitHub code Search 结果数 |
 | :------ | :------------ | :----------------------------------------------------------- | :--------- | :-------------------- | :------------------- | :------------------------------ | :------------------------ |
-| **OCR** | DBNet (2019） | Real-time Scene Text Detection with Differentiable Binarization | 3          | 222                   | 12,100               | 53                              | 2,289                     |
-|         | CRNN (2015）  | An end-to-end trainable neural network for image-based sequence recognition and its application to scene text recognition | 4          | 1785                  | 129,000              | 765                             | 21,271                    |
-|         | SAR (2018）   | Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition | 3          | 166                   | 1,040                | 3                               | 23,031                    |
+| **OCR** | DBNet (2019） | [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) | 3          | 222                   | 12,100               | 53                              | 2,289                     |
+|         | CRNN (2015）  | [An end-to-end trainable neural network for image-based sequence recognition and its application to scene text recognition](https://arxiv.org/abs/1507.05717) | 4          | 1785                  | 129,000              | 765                             | 21,271                    |
+|         | SAR (2018）   | [Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition](https://arxiv.org/abs/1811.00751) | 3          | 166                   | 1,040                | 3                               | 23,031                    |
 
 ## 三、性能数据
 
@@ -368,7 +368,7 @@ $b,c,d$计算方式亦然。
 
 3.计算各维度的细项评分，即$S_{a}$，$S_{b}$，$S_{c}$，$S_{d}$，以$S_{a}$为例，如下公式中$a_{max}$，$a_{avg}$，$a_{min}$，分别表示该方向（如目标检测）下所有算法中$a$的最大值，算数平均值与最小值。
 $$
-   \left.S_a=\left\{\begin{array}{ll}4,\quad&a>\frac{amax+a_avg}2\\3,\quad&\frac{amax+a_avg}2>a>a_{avg}\\2,\quad&a_{avg}>a>\frac{a_{min}+a_{avg}}2\\1,\quad&\frac{a_{min}+a_{avg}}2>a\end{array}\right.\right.
+\left.S_a=\left\{\begin{array}{ll}4,\quad&a>\frac{amax+a_avg}2\\3,\quad&\frac{amax+a_avg}2>a>a_{avg}\\2,\quad&a_{avg}>a>\frac{a_{min}+a_{avg}}2\\1,\quad&\frac{a_{min}+a_{avg}}2>a\end{array}\right.\right.
 $$
 
 4.计算该模型的影响力总体得分，即$S$：
